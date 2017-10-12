@@ -1,0 +1,131 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .top-navbar .col-sm-4, .top-navbar .col-sm-8 { text-align: center !important; }
+  .navbar-custom a#logo {
+    background: rgba(0, 0, 0, 0);
+    height: 79px;
+    width: 150px;
+  }
+  .navbar-toggle span.icon-bar {
+    background: #ffffff;
+    border-radius: 0;
+    height: 3px;
+  }
+  .navbar-custom ul.main-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar-custom ul.main-menu li a {
+    background: #222222;
+    color: #ffffff;
+  }
+  .navbar-custom ul.main-menu li a:hover,
+  .navbar-custom ul.main-menu li a:focus {
+    background: #f58220;
+    color: #ffffff;
+  }
+  .navbar-custom ul.main-menu li.active a {
+    background: #f58220;
+    color: #ffffff;
+  }
+  .navbar-custom ul.main-menu li .dropdown-menu {
+    margin-top: 0;
+  }
+  .navbar-custom ul.main-menu li .dropdown-menu:after {
+    border: 0;
+  }
+  .navbar-custom.top-nav-collapse {
+    /*background: rgba(0, 0, 0, 0.9);*/
+  }
+  .navbar-custom.top-nav-collapse ul.main-menu li.active a {
+    background: #f25d4f;
+    color: #ffffff;
+  }
+  .top-navbar .col-sm-5 { text-align: center !important; }
+    .top-navbar .container { padding: 0; }
+    .top-navbar ul  { padding: 0; float: left; }
+    .top-navbar ul li { background-position: 0 12px !important; margin-left: 5px; padding-right: 5px; }
+    .top-navbar ul li a { font-size: 12px; }
+    .navbar-custom ul.main-menu li a { font-size: 22px; }
+    .copyright .container { padding: 0; }
+    .copyright .col-sm-5 { background: none; padding: 0; margin-bottom: 10px; }
+    .copyright .col-sm-5 p { text-align: center; font-size: 13px; }
+  .nav-justified > li { width: 100% !important; display: block; margin-left: 0 !important; }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .navbar-custom a#logo {
+    background: rgba(0, 0, 0, 0);
+    height: 79px;
+    width: 150px;
+  }
+  .navbar-toggle span.icon-bar {
+    background: #ffffff;
+    border-radius: 0;
+    height: 3px;
+  }
+  .navbar-custom ul.main-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .navbar-custom ul.main-menu li a {
+    background: #222222;
+    color: #ffffff;
+  }
+  .navbar-custom ul.main-menu li a:hover,
+  .navbar-custom ul.main-menu li a:focus {
+    background: #f25d4f;
+    color: #ffffff;
+  }
+  .navbar-custom ul.main-menu li.active a {
+    background: #f25d4f;
+    color: #ffffff;
+  }
+  .navbar-custom.top-nav-collapse {
+    /*background: rgba(0, 0, 0, 0.9);*/
+  }
+  .navbar-custom.top-nav-collapse ul.main-menu li.active a {
+    background: #f25d4f;
+    color: #ffffff;
+  }
+  .top-navbar .col-sm-5 { text-align: center !important; }
+  .top-navbar ul { float: none; padding-left: 10px; text-align: center; overflow: hidden; }
+    .top-navbar ul li { background-position: 0 12px !important; float: none; display: inline-block; }
+    .top-navbar ul li a { font-size: 14px; }
+    .navbar-custom ul.main-menu li a { font-size: 22px; }
+    .copyright .col-sm-5 { background: none; margin-bottom: 10px; }
+    .copyright .col-sm-5 p { text-align: center; }
+  .nav-justified > li { width: 100% !important; display: block; margin-left: 0 !important; }
+    .table-responsive { overflow-x: scroll !important; }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body { overflow-x: hidden; }
+  .navbar-custom a#logo {
+    background: rgba(0, 0, 0, 0);
+    height: 79px;
+    width: 150px;
+  }
+  .navbar-nav {
+    margin-top: 15px;
+  }
+  .top-navbar .col-sm-5 { width: 35%; }
+  .top-navbar .col-sm-7 { width: 65%; }
+  .navbar-custom .container { padding-right: 0; }
+  .navbar-custom ul.main-menu li a { font-size: 17px; padding-right: 10px; padding-left: 10px; background: #ffffff !important; color: #636363 !important; }
+  .navbar-custom ul.main-menu li a:hover, .navbar-custom ul.main-menu li a:focus { background: #ffffff !important; color: #f58220 !important; }
+  .navbar-custom ul.main-menu li.active a { background: #ffffff !important; color: #f58220 !important; }
+  footer .toprow .col-sm-5 { padding: 0; }
+  .copyright .col-sm-5 { background-position: 98% 4px; width: 45%; }
+  .copyright p { font-size: 12px; }
+  .table-responsive { overflow-x: scroll !important; }
+}
+@media (min-width: 992px) and (max-width: 1250px) {
+    body { overflow-x: hidden; }
+    .navbar-custom ul.main-menu li a { font-size: 24px; }
+    .copyright .col-sm-5 { background-position: 98% 4px; }
+    .table-responsive { overflow-x: scroll !important; }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1110px !important;
+        padding: 0;
+    }
+}

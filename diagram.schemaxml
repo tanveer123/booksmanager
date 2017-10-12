@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="latin1" collation="latin1_swedish_ci">booksmanager</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="admins" view="colnames">
+<left>646</left>
+<top>33</top>
+<width>145</width>
+<height>282</height>
+<sql_create_table>CREATE TABLE `admins` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `role_id` int(11) DEFAULT NULL,
+  `name` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `username` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `phone` bigint(100) DEFAULT NULL,
+  `email` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_users_roles` (`role_id`),
+  CONSTRAINT `FK_admin` FOREIGN KEY (`role_id`) REFERENCES `roles` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci</sql_create_table>
+</table>
+<table name="books" view="colnames">
+<left>229</left>
+<top>59</top>
+<width>113</width>
+<height>265</height>
+<sql_create_table>CREATE TABLE `books` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `rack_id` int(11) NOT NULL,
+  `title` varchar(200) DEFAULT NULL,
+  `author` varchar(50) DEFAULT NULL,
+  `pub_year` int(11) DEFAULT NULL,
+  `is_active` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `Rack_Book_Fk` (`rack_id`),
+  CONSTRAINT `Rack_Book_Fk` FOREIGN KEY (`rack_id`) REFERENCES `racks` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="racks" view="colnames">
+<left>68</left>
+<top>57</top>
+<width>113</width>
+<height>214</height>
+<sql_create_table>CREATE TABLE `racks` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) DEFAULT NULL,
+  `is_active` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+<table name="roles" view="colnames">
+<left>453</left>
+<top>30</top>
+<width>113</width>
+<height>214</height>
+<sql_create_table>CREATE TABLE `roles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) DEFAULT NULL,
+  `is_active` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>

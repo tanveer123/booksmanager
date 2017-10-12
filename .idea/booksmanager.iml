@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/barryvdh/laravel-debugbar" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/dompdf/dompdf" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/intervention/image" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/jeremeamia/SuperClosure" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravel/socialite" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravel/tinker" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravelcollective/html" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/league/fractal" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/league/oauth1-client" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/maatwebsite/excel" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/maximebf/debugbar" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/myclabs/deep-copy" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phenx/php-font-lib" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phenx/php-svg-lib" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpoffice/phpexcel" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/object-enumerator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/resource-operations" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/socialiteproviders/instagram" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/socialiteproviders/manager" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/spatie/image-optimizer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/spatie/laravel-image-optimizer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/webmozart/assert" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/yajra/laravel-datatables-oracle" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/barryvdh/laravel-debugbar" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/dompdf/dompdf" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/intervention/image" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/jeremeamia/SuperClosure" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravel/socialite" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravel/tinker" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/laravelcollective/html" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/league/fractal" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/league/oauth1-client" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/maatwebsite/excel" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/maximebf/debugbar" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/myclabs/deep-copy" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phenx/php-font-lib" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phenx/php-svg-lib" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpoffice/phpexcel" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/object-enumerator" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/resource-operations" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/socialiteproviders/instagram" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/socialiteproviders/manager" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/spatie/image-optimizer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/spatie/laravel-image-optimizer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/webmozart/assert" />
+          <root url="file://$MODULE_DIR$/../pakcheers/vendor/yajra/laravel-datatables-oracle" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+          <root url="phar://$MODULE_DIR$/../pakcheers/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+          <root url="phar://$MODULE_DIR$/../pakcheers/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
