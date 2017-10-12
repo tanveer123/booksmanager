@@ -2,7 +2,8 @@
 SQLyog Enterprise v12.09 (64 bit)
 MySQL - 10.1.22-MariaDB : Database - booksmanager
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -120,7 +121,7 @@ CREATE TABLE `users` (
 
 /*Data for the table `users` */
 
-insert  into `users`(`id`,`name`,`email`,`password`,`remember_token`,`is_active`,`created_by`,`created_at`,`updated_by`,`updated_at`) values (3,'M.Tanveer','tanveer_393@hotmail.com','$2y$10$JeEWWVnONg3Dvv6TeXlCneuKzGOQVp4GRIg72Qt5g4Dig1bylnTVu','v0NQpm1tY49NqItJv8bV8HsIl1CdI27L4vDnMe8iPGyAyu6tLjbu2hWWrllk',1,3,'2017-06-14 20:44:41',3,'2017-06-14 20:44:41');
+insert  into `users`(`id`,`name`,`email`,`password`,`remember_token`,`is_active`,`created_by`,`created_at`,`updated_by`,`updated_at`) values (3,'M.Tanveer','tanveer@hotmail.com','$2y$10$JeEWWVnONg3Dvv6TeXlCneuKzGOQVp4GRIg72Qt5g4Dig1bylnTVu','v0NQpm1tY49NqItJv8bV8HsIl1CdI27L4vDnMe8iPGyAyu6tLjbu2hWWrllk',1,3,'2017-06-14 20:44:41',3,'2017-06-14 20:44:41');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
